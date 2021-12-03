@@ -1,0 +1,34 @@
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+input{
+  width: 800px;
+  border: 1px solid rgba(128, 128, 128, 0.493);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+label{
+  display: block;
+  padding: 10px 0px 10px 0px;
+  color: rgb(90, 86, 86);
+}
+
+small{
+  display: block;
+  padding: 5px 0px 0px 0px;
+  color: rgb(34, 31, 31);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.form-group{
+margin: 30px 0px 0px 0px;
+}
+
+h1{
+ color: rgba(107, 105, 105, 0.877);
+}
