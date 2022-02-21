@@ -1,4 +1,5 @@
 const cep = document.getElementById('cep')
+const info = document.querySelector('.info')
 
 const showData = (result) => {
   for(const campo in result){ 
@@ -10,7 +11,13 @@ const showData = (result) => {
 
 
 cep.addEventListener("blur", (e) => { 
+  if(cep.value == ""){
+    window.alert("Insira o Cep")
+  }else{
 
+    info.classList.add('show')
+  }
+  
   let search = cep.value.replace("-", "") 
 
   const options = {
